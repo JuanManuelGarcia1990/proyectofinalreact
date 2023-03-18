@@ -1,0 +1,73 @@
+.mainCarrito {
+    background: linear-gradient(45deg, black, transparent);
+    min-height: 60vh;
+}
+
+.mainCarrito h1 {
+  text-align: center;
+  font-weight: bolder;
+  padding: 20px;
+}
+
+.carrito {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 20vh;
+}
+.carrito button {
+  cursor: pointer;
+  background-color: #ec3237;
+  border-radius: 20px;
+  height: 60px;
+  font-weight: bolder;
+  font-size: large;
+  border: solid;
+}
+.vaciar {
+  display: flex;
+  justify-content: space-evenly;
+}
+.vaciar button {
+  cursor: pointer;
+  background-color: #201e1f;
+  color: white;
+  border-radius: 20px;
+  height: 60px;
+  font-weight: bolder;
+  font-size: large;
+  border: solid;
+}
+.vaciar h2 {
+    text-align: center;
+}
+.carritoVacio h2 {
+    text-align: center;
+    padding: 20px;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form button {
+  cursor: pointer;
+  background-color: #ec3237;
+  border-radius: 20px;
+  height: 60px;
+  font-weight: bolder;
+  font-size: large;
+  border: solid;
+}
+.cartForm {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-top: 30px;
+  width: 50vw;
+}
+.cartForm input{
+  padding: 10px;
+  border-radius: 20px;
+}

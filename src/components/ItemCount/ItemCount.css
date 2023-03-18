@@ -1,0 +1,18 @@
+.controllers {
+  display: flex;
+}
+.controllers button {
+  font-size: 25px;
+  width: 50px;
+  background-color: #ec3237;
+  font-weight: bolder;
+}
+
+.counter {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.counter span {
+    padding: 15px;
+}

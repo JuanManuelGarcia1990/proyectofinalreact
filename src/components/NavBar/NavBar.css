@@ -1,0 +1,24 @@
+
+.list{
+    display: flex;
+    list-style: none;
+}
+
+.list li{
+    margin-left: 25px;
+}
+
+.active {
+    color:white;
+    text-decoration: underline;
+    text-decoration-color: aliceblue;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.inactive {
+    color: #ec3237;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+}

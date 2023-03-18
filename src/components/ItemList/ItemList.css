@@ -1,0 +1,18 @@
+.itemList {
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.itemList a {
+    text-decoration: none;
+    color: #ec3237;
+}
+
+.card {
+    width: 25%;
+    padding-inline: 10px;
+}
