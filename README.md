@@ -1,4 +1,4 @@
-![](./gif.mp4)
+![](./gif.gif)
 
 #Chili Peppers World
 
