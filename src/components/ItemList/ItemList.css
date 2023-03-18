@@ -1,10 +1,12 @@
 .itemList {
+    background-color: #ec3237;
     padding: 25px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
+    min-height: 80vh;
 }
 
 .itemList a {
