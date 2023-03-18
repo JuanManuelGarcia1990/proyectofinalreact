@@ -10,6 +10,7 @@ import {
   updateDoc,
 } from "firebase/firestore";
 import ItemCart from "./ItemCart";
+import Swal from 'sweetalert2';
 
 const Cart = () => {
   const { cart, clear, removeItem, total } = useContext(CartContext);
@@ -44,7 +45,12 @@ const Cart = () => {
     })
       .then((response) => {
         console.log(response.id);
-        alert(`Orden con el id ${response.id} ha sido creada`);
+        Swal.fire({
+          icon: 'success',
+          title: `Orden con el id ${response.id} ha sido creada`,
+        }).then(() => updateStocks(db))
+        .catch((error) => console.log(error));
+        
         updateStocks(db);
       })
       .catch((error) => console.log(error));
@@ -58,7 +64,11 @@ const Cart = () => {
         stock: product.stock - product.quantity,
       })
         .then(() => {
-          alert("El stock de los productos ha sido actualizado");
+          Swal.fire({
+            icon: 'success',
+            title: 'El stock de los productos ha sido actualizado',
+          });
+          
         })
         .catch((error) => console.log(error));
     });
