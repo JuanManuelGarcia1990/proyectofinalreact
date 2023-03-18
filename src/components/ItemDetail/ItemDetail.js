@@ -14,10 +14,15 @@ const ItemDetail = ({ detail }) => {
     if (count <= detail.stock) {
       addItem(detail, count);
       Swal.fire({
-        icon: 'success',
-        title: 'Producto agregado al carrito',
+        position: "center",
+        background: "black",
+        width: "70%",
+        title: "Producto agregado al carrito",
+        icon: "success",
+        iconColor: "red",
         showConfirmButton: false,
-        timer: 1500
+        timer: 2000,
+        color: "red",
       });
     } else {
       Swal.fire({

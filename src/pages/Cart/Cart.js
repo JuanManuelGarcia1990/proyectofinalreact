@@ -66,7 +66,13 @@ const Cart = () => {
         .then(() => {
           Swal.fire({
             icon: 'success',
-            title: 'El stock de los productos ha sido actualizado',
+            background: "black",
+            width: "70%",
+            icon: "success",
+            iconColor: "red",
+            title: "¡Compra finalizada con éxito! 'El stock de los productos ha sido actualizado'",
+            text: "Muchas gracias por su compra",
+            color: "white",
           });
           
         })

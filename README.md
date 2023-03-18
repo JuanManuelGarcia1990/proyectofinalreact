@@ -1,3 +1,11 @@
+![](./gif.mp4)
+
+#Chili Peppers World
+
+#Galerias utilizadas: sweet alert
+
+E-commerce dedica a productos de los Red Hot Chili Peppers
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
